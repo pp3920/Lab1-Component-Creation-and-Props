@@ -16,3 +16,19 @@ A reusable alert component.
 <AlertBox type="success" message="Saved!">
   <p>Extra info</p>
 </AlertBox>
+
+
+2. UserProfileCard
+
+Displays user information.
+
+Props:
+user: User
+showEmail?: boolean
+showRole?: boolean
+onEdit?: (id: string) => void
+children?: ReactNode
+Usage:
+<UserProfileCard user={user} showEmail={true}>
+  <p>Last login today</p>
+</UserProfileCard>
