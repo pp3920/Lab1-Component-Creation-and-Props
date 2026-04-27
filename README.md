@@ -18,9 +18,9 @@ A reusable alert component.
 </AlertBox>
 
 
-2. UserProfileCard
+##UserProfileCard
 
-Displays user information.
+###Displays user information.
 
 Props:
 user: User
@@ -28,7 +28,8 @@ showEmail?: boolean
 showRole?: boolean
 onEdit?: (id: string) => void
 children?: ReactNode
-Usage:
+
+###Usage:
 <UserProfileCard user={user} showEmail={true}>
   <p>Last login today</p>
 </UserProfileCard>
