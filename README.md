@@ -1,3 +1,4 @@
+
 # React TypeScript Component Library
 
 ## Components
@@ -17,17 +18,17 @@ A reusable alert component.
   <p>Extra info</p>
 </AlertBox>
 
+###User Profile Card
+    Display user information
 
-##UserProfileCard
-
-###Displays user information.
-
-Props:
+  Props:
 user: User
 showEmail?: boolean
 showRole?: boolean
 onEdit?: (id: string) => void
 children?: ReactNode
+
+
 
 ###Usage:
 <UserProfileCard user={user} showEmail={true}>
